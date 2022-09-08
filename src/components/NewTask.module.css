@@ -1,0 +1,38 @@
+.newTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.newTaskForm {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.newTaskForm input {
+    background: var(--gray-500);
+    color: var(--gray-300);
+    border: 1px solid var(--gray-700);
+    border-color: var(--gray-700);
+    border-radius: 8px;
+    resize: none;
+    padding: 1rem;
+    padding-right: 26.875rem;
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+.newTaskForm button {
+    border: none;
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
